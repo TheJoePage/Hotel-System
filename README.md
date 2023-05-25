@@ -1,1 +1,1 @@
-# TeleMed
+# Easy Hotel System
