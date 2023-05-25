@@ -1,0 +1,95 @@
+/*------navbar------*/
+
+/*.navbar navbar-expand-lg navbar-light fixed-top{
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.2)) !important;
+}*/
+
+.bgcolor{
+    background-color: rgba(19, 114, 135, 1);
+  }
+  
+  .navbar-brand {
+      color: black;
+      font-size: 25px;
+      font-weight: bold;
+      letter-spacing: 2px;
+      font-family:'CinzelDecorative-Bold', cursive;
+      text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3);
+    }
+  
+  .nav li a{
+      position:relative;
+      padding: 5px 0 5px;
+      margin: 0 25px;
+      color:#fff;
+      text-decoration: none;
+      text-transform: uppercase;
+  }
+  
+  .nav li a:hover{
+      color: rgb(0, 68, 82);
+      transition: .9s;
+  }
+  
+  .nav li a:after{
+      content: '';
+      position:absolute;
+      left:50%;
+      bottom: 0;
+      transform: translateX(-50%) scaleX(0);
+      -webkit-transform: translateX(-50%) scaleX(0);
+      transform-origin: 50% 50%;
+      width: 100%;
+      height: 2px;
+      background-color: rgba(255, 255, 255, 0.9);
+      -webkit-transition:transform 250ms ;
+      transition: transform 250ms;
+  }
+  
+  .nav li a:hover:after{
+  -webkit-transform: translateX(-50%) scaleX(1); ;
+     transform: translateX(-50%) scaleX(1); 
+  }
+  
+  /*-----navbar------*/
+
+  .profile-img{
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px;
+  }
+  .profile-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  .profile{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 0 !important;
+  }
+  .name-user{
+    display: flex;
+    flex-direction: column;
+  }
+  .name-user strong{
+    color: black;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+  }
+  .name-user span{
+    color: white;
+    font-size: 0.8rem;
+  }
+
+  body {
+    font-family: Raleway, sans-serif;
+  }
+
+  #loginForm {
+    margin-block-end: 0 !important;
+  } 
