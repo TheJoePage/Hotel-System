@@ -1,0 +1,21 @@
+<html lang="en">
+    <head>
+        <%- include('partials/head', {title:'Error'}); %>
+    </head>
+    <header id="headerNav">
+        <%- include('partials/header'); %>
+    </header>
+    <body class="bg-light">
+        
+        <div class="d-flex align-items-center justify-content-center vh-100">
+            <div class="text-center">
+                <h1 class="display-1 fw-bold"><%=errorCode %></h1>
+                <p class="fs-3"> <span class="text-">Oops!</span> Something went wrong.</p>
+                <p class="lead">
+                    <%=errorMsg %>
+                </p>
+                <a href="/" class="btn btn-primary">Go Home</a>
+            </div>
+        </div>
+    </body>
+</html>

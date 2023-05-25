@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <%- include('partials/head', {title:"Admin Panel"}); %>
+    <link rel="stylesheet" href="/css/admin/admin-panel.css">
+  </head>
+  <body>
+    <%- include('partials/personal'); %>
+    <h2 style="margin-top: 2%;">Roles</h2>
+    <table class="table align-middle mb-0 bg-white" id="roles">
+      <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Role Name</th>
+            <th scope="col">Role ID</th>
+        </tr>
+    </thead>
+      <tbody>
+      </tbody>
+    </table>
+    <div class="chart-container" style="position: relative; height:500px;">
+      <canvas id="entropyOfRoles"></canvas>
+    </div>
+  </body>
+  <%- include('partials/scripts'); %>
+  <script src="/js/admin/roles.js"></script>
+</html>

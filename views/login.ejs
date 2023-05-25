@@ -1,0 +1,134 @@
+<html>
+    <head>
+        <%- include('partials/head', {title:"Login"}); %>
+        <link href="css/login.css" rel="stylesheet">
+    </head>
+    <header id="headerNav">
+        <%- include('partials/header'); %>
+      </header>
+    <body>
+        <div id="statusModal" class="modal" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title modal-title-status"></h5>
+                  <button type="button" class="close" data-dismiss="modal" data-bs-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body modal-body-status">           
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary close-popup" data-bs-dismiss="modal" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+                    <div class="card border-0 shadow rounded-3 my-5">
+                        <div class="card-body p-4 p-sm-5">
+                            <ul class="nav nav-tabs mb-3 nav-fill" id="myTab"
+                                role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link active"
+                                        id="sign-in-tab" data-toggle="tab" data-bs-toggle="tab"
+                                        data-target="#sign-in" data-bs-target="#sign-in" type="button"
+                                        role="tab" aria-controls="sign-in"
+                                        aria-selected="true">Sign In</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="sign-up-tab"
+                                        data-toggle="tab" data-bs-toggle="tab"
+                                        data-target="#sign-up" data-bs-target="#sign-up" type="button"
+                                        role="tab" aria-controls="sign-up"
+                                        aria-selected="false">Sign Up</button>
+                                </li>
+                            </ul>
+                            <div class="tab-content" id="myTabContent">
+                                <div class="tab-pane fade show active"
+                                    id="sign-in"
+                                    role="tabpanel"
+                                    aria-labelledby="sign-in-tab">
+                                    <form id="basic-auth-form">
+                                        <div class="form-floating mb-3">
+                                            <input required type="email"
+                                                class="form-control"
+                                                id="floatingInput"
+                                                name="email"
+                                                placeholder="name@example.com">
+                                            <label for="floatingInput">Email
+                                                address</label>
+                                        </div>
+                                        <div class="form-floating mb-3">
+                                            <input required type="password"
+                                                class="form-control"
+                                                id="floatingPassword"
+                                                name="password"
+                                                placeholder="Password">
+                                            <label for="floatingPassword">Password</label>
+                                        </div>
+                                        
+                                        <div class="d-grid">
+                                            <button class="btn btn-primary
+                                                btn-login
+                                                text-uppercase fw-bold"
+                                                type="submit">Sign
+                                                in</button>
+                                        </div>
+                                    </form>
+                                    <hr class="my-4">
+                                </div>
+                                <div class="tab-pane fade" id="sign-up"
+                                    role="tabpanel"
+                                    aria-labelledby="sign-up-tab">
+                                    <form id="add-user-form">
+                                        <div class="form-floating mb-3">
+                                            <input required type="text"
+                                                class="form-control"
+                                                id="floatingInput"
+                                                name="fullName"
+                                                placeholder="James Smith">
+                                            <label for="floatingInput">Full Name</label>
+                                        </div>
+                                        <div class="form-floating mb-3">
+                                            <input required type="email"
+                                                class="form-control"
+                                                id="floatingInput"
+                                                name="email"
+                                                placeholder="name@example.com">
+                                            <label for="floatingInput">Email
+                                                address</label>
+                                        </div>
+                                        <div class="form-floating mb-3">
+                                            <input required type="password"
+                                                class="form-control"
+                                                id="floatingPassword"
+                                                name="password"
+                                                placeholder="Password">
+                                            <label for="floatingPassword">Password</label>
+                                        </div>
+                                        <div class="d-grid">
+                                            <button class="btn btn-primary
+                                                btn-login
+                                                text-uppercase fw-bold"
+                                                type="submit">Sign
+                                                up</button>
+                                        </div>
+                                        <hr class="my-4">
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <footer>
+        <%- include('partials/footer'); %>
+    </footer>
+    <%- include('partials/scripts'); %>
+    <script src="js/login.js"></script>
+</html>
