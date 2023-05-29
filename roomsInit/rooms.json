@@ -1,0 +1,130 @@
+[
+    {
+        "roomType": "Suite",
+        "cost": 500
+    },
+    {
+        "roomType": "Suite",
+        "cost": 500
+    },
+    {
+        "roomType": "Suite",
+        "cost": 500
+    },
+    {
+        "roomType": "Suite",
+        "cost": 500
+    },
+    {
+        "roomType": "Suite",
+        "cost": 500
+    },
+    {
+        "roomType": "Suite",
+        "cost": 500
+    },
+    {
+        "roomType": "Exclusive",
+        "cost": 300
+    },
+    {
+        "roomType": "Exclusive",
+        "cost": 300
+    },
+    {
+        "roomType": "Exclusive",
+        "cost": 300
+    },
+    {
+        "roomType": "Exclusive",
+        "cost": 300
+    },
+    {
+        "roomType": "Exclusive",
+        "cost": 300
+    },
+    {
+        "roomType": "Exclusive",
+        "cost": 300
+    },
+    {
+        "roomType": "Exclusive",
+        "cost": 300
+    },
+    {
+        "roomType": "Exclusive",
+        "cost": 300
+    },
+    {
+        "roomType": "Exclusive",
+        "cost": 300
+    },
+    {
+        "roomType": "Exclusive",
+        "cost": 300
+    },
+    {
+        "roomType": "Exclusive",
+        "cost": 300
+    },
+    {
+        "roomType": "Exclusive",
+        "cost": 300
+    },
+    {
+        "roomType": "Exclusive",
+        "cost": 300
+    },
+    {
+        "roomType": "Exclusive",
+        "cost": 300
+    },
+    {
+        "roomType": "Standard",
+        "cost": 200
+    },
+    {
+        "roomType": "Standard",
+        "cost": 200
+    },
+    {
+        "roomType": "Standard",
+        "cost": 200
+    },
+    {
+        "roomType": "Standard",
+        "cost": 200
+    },
+    {
+        "roomType": "Standard",
+        "cost": 200
+    },
+    {
+        "roomType": "Standard",
+        "cost": 200
+    },
+    {
+        "roomType": "Standard",
+        "cost": 200
+    },
+    {
+        "roomType": "Standard",
+        "cost": 200
+    },
+    {
+        "roomType": "Standard",
+        "cost": 200
+    },
+    {
+        "roomType": "Standard",
+        "cost": 200
+    },
+    {
+        "roomType": "Family",
+        "cost": 250
+    },
+    {
+        "roomType": "Family",
+        "cost": 250
+    }
+]

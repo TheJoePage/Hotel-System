@@ -48,4 +48,4 @@ schema.pre('save', function (next) {
     autoIncrementModelId('orders', this, next);
 });
 
-modle.exports = mongoose.model("Order", schema, "Order");
+module.exports = mongoose.model("Order", schema, "Order");
