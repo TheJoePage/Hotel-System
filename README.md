@@ -1,3 +1,4 @@
+# _PLEASE NOTE THAT THIS IS NOT COMPLETED, SO SOME TO MOST FUNCTIONS ARE UNAVAILABLE. TO FIND OUT WHEN ITS DONE PRESS THE "WATCH" BUTTON!_
 # Easy Hotel System 
 
 This is an easy-to-use and easy-to-setup Online Hotel Application.
